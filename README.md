@@ -1,4 +1,3 @@
-@"
 # Dental Görüntülerde Çürük ve Mikro Hasar Tespiti
 
 Bu proje, dental görüntüler üzerinde çürük, derin çürük, periapikal lezyon ve diş yüzeyi hasarı/aşınması gibi patolojik bulguların derin öğrenme tabanlı modellerle tespit edilmesini amaçlamaktadır.
@@ -40,9 +39,4 @@ Bu proje, dental görüntüler üzerinde çürük, derin çürük, periapikal le
 
 ## Not
 
-Veri setleri, eğitim çıktıları ve büyük model ağırlıkları dosya boyutu nedeniyle repoya dahil edilmemiştir. Bu dosyalar Google Drive üzerinde tutulmuştur.
-"@ | Set-Content README.md -Encoding UTF8
-
-git add README.md
-git commit -m "README dosyasi eklendi"
-git push
+Veri setleri, eğitim çıktıları ve büyük model ağırlıkları dosya boyutu nedeniyle repoya dahil edilmemiştir.
