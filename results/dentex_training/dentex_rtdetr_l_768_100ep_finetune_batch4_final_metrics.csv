@@ -1,0 +1,2 @@
+model,run_name,imgsz,epochs,batch,precision,recall,mAP50,mAP50-95,best_model_path
+RT-DETR-l,rtdetr_l_768_100ep_finetune_batch4,768,100,4,0.6806123514344641,0.08602150537634408,0.015950186963771654,0.004531204846351308,/content/drive/MyDrive/DIS_PROJESI_007/runs/dentex/rtdetr_l_768_100ep_finetune_batch4/weights/best.pt

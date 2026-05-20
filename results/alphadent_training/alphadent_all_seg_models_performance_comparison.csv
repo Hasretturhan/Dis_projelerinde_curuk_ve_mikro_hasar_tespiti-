@@ -1,0 +1,6 @@
+model,weights,run_name,imgsz,epochs,batch,box_precision,box_recall,box_mAP50,box_mAP50-95,mask_precision,mask_recall,mask_mAP50,mask_mAP50-95
+YOLOv8m-seg,yolov8m-seg.pt,yolov8m_seg_640_30ep,640,30,4,0.578482,0.623575,0.620584,0.459795,0.613126,0.585585,0.612124,0.411457
+YOLOv8m-seg,/content/drive/MyDrive/DIS_PROJESI_007/runs/alphadent/yolov8m_seg_640_30ep/weights/best.pt,yolov8m_seg_768_75ep_finetune,768,75,4,0.53067,0.639962,0.617483,0.457998,0.591057,0.601421,0.608167,0.413483
+YOLO11s-seg,yolo11s-seg.pt,yolo11s_seg_640_30ep,640,30,8,0.558936,0.588657,0.601638,0.438696,0.531689,0.605506,0.593423,0.395781
+YOLOv8n-seg,yolov8n-seg.pt,yolov8n_seg_640_30ep,640,30,8,0.553011,0.600889,0.592514,0.435657,0.559407,0.602827,0.589347,0.391522
+YOLOv8s-seg,yolov8s-seg.pt,yolov8s_seg_640_30ep,640,30,8,0.569006,0.620811,0.605136,0.43992,0.563801,0.622749,0.582481,0.390327

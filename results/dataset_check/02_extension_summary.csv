@@ -1,0 +1,11 @@
+dataset,extension,count
+dentex,.png,3654
+dentex,.json,3
+alphadent,.jpg,1455
+alphadent,.txt,1320
+alphadent,.csv,1
+alphadent,.yaml,1
+intraoral_caries,.jpg,6265
+intraoral_caries,.json,2248
+intraoral_caries,.txt,2245
+intraoral_caries,.xml,2245

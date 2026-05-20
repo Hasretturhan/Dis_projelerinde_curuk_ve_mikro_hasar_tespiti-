@@ -1,0 +1,2 @@
+model,task,imgsz,epochs,batch,best_epoch,best_val_mIoU,best_model_path,history_csv
+DeepLabV3+ ResNet34,semantic_segmentation,512,30,4,16,0.3728800513947914,/content/drive/MyDrive/DIS_PROJESI_007/runs/alphadent_deeplab/deeplabv3plus_resnet34_512_30ep/best_model.pth,/content/drive/MyDrive/DIS_PROJESI_007/runs/alphadent_deeplab/deeplabv3plus_resnet34_512_30ep/history.csv

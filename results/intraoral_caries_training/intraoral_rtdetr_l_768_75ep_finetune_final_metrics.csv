@@ -1,0 +1,2 @@
+model,run_name,imgsz,epochs,batch,precision,recall,mAP50,mAP50-95,best_model_path
+RT-DETR-l,rtdetr_l_768_75ep_finetune,768,75,4,0.8807464881644741,0.874189364461738,0.9270266064580466,0.736955639135433,/content/drive/MyDrive/DIS_PROJESI_007/runs/intraoral_caries/rtdetr_l_768_75ep_finetune/weights/best.pt

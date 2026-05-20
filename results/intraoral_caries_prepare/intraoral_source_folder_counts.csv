@@ -1,0 +1,16 @@
+source_folder,count
+no_retractors/Mandibular,495
+retractors/Mandibular,495
+retractors/Maxillary_Occlusal,378
+no_retractors/Maxillary_Occlusal,372
+pilot/Mandibular,128
+pilot/Maxillary_Occlusal,88
+retractors/Right_Lateral,48
+no_retractors/Right_Lateral,46
+no_retractors/Left_Lateral,44
+retractors/Left_Lateral,40
+retractors/Frontal,23
+pilot/Right_Lateral,22
+pilot/Frontal,17
+no_retractors/Frontal,16
+pilot/Left_Lateral,15

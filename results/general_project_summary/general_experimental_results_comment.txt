@@ -1,0 +1,17 @@
+
+Bu çalışmada üç farklı dental görüntü veri seti üzerinde nesne tespiti ve segmentasyon tabanlı derin öğrenme deneyleri gerçekleştirilmiştir. 
+DENTEX 2023 veri setinde panoramik dental X-ray görüntüleri üzerinde çürük, derin çürük ve periapikal lezyon sınıfları tespit edilmeye çalışılmıştır. 
+Bu veri setinde en iyi sonuç RT-DETR-l modeliyle elde edilmiş olsa da mAP değerleri düşük kalmıştır. Bu durum panoramik X-ray görüntülerinde küçük patolojik bulguların düşük görünürlüğü, sınıf dengesizliği ve anotasyonların hastalık bölgesini piksel hassasiyetinde temsil etmemesiyle ilişkilendirilmiştir.
+
+AlphaDent veri setinde ağız içi görüntüler üzerinde diş çürüğü ve diş aşınması bölgeleri segmentasyon tabanlı olarak modellenmiştir. 
+YOLOv8n-seg, YOLOv8s-seg, YOLOv8m-seg ve YOLO11s-seg modelleri karşılaştırılmış; en iyi sonuç YOLOv8m-seg modeliyle elde edilmiştir. 
+YOLOv8m-seg modeli 640 görüntü boyutu ve 30 epoch eğitim ile mask_mAP50=0.6121 ve mask_mAP50-95=0.4115 değerlerine ulaşmıştır.
+
+Intraoral Caries veri setinde tek sınıflı çürük tespiti yapılmıştır. Bu veri seti, ağız içi görüntülerde doğrudan çürük bölgelerine odaklandığı için en başarılı sonuçların elde edildiği veri seti olmuştur. 
+RT-DETR-l modeli 640 görüntü boyutu ve 30 epoch eğitim ile mAP50=0.9503 ve mAP50-95=0.7583 değerlerine ulaşmıştır.
+
+Ek olarak, AlphaDent veri seti üzerinde DeepLabV3+ ResNet34 modeli semantic segmentation yaklaşımıyla denenmiştir. 
+DeepLabV3+ modeli en iyi 16. epochta val_mIoU=0.3729 değerine ulaşmıştır. Ancak eğitim ve doğrulama eğrileri overfitting eğilimi göstermiştir. 
+Bu nedenle AlphaDent için final model olarak YOLOv8m-seg tercih edilmiştir.
+
+Genel olarak sonuçlar, dental görüntülerde model başarısının yalnızca model mimarisi veya epoch sayısına değil; veri setinin görüntü türüne, anotasyon formatına, sınıf dağılımına ve hedef patolojik bulgunun görünürlüğüne bağlı olduğunu göstermektedir.

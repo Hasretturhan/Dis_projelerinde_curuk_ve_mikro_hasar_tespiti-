@@ -1,0 +1,3 @@
+model,run_name,task,metric_type,main_metric_name,main_metric_value,secondary_metric_name,secondary_metric_value
+YOLOv8m-seg,yolov8m_seg_640_30ep,instance_segmentation,mask_mAP,mask_mAP50,0.612123561256956,mask_mAP50-95,0.4114572713462247
+DeepLabV3+ ResNet34,deeplabv3plus_resnet34_512_30ep,semantic_segmentation,mIoU,val_mIoU,0.3728800513947914,best_epoch,16.0

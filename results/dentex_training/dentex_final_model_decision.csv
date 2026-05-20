@@ -1,0 +1,3 @@
+experiment,model,run_name,imgsz,epochs,batch,precision,recall,mAP50,mAP50-95,decision
+first_round_best,RT-DETR-l,rtdetr_l_640_30ep,640,30,4,0.684156,0.133065,0.022853,0.005516,selected_as_best_dentex_model
+fine_tune,RT-DETR-l,rtdetr_l_768_100ep_finetune_batch4,768,100,4,0.680612,0.086022,0.01595,0.004531,not_selected_lower_map

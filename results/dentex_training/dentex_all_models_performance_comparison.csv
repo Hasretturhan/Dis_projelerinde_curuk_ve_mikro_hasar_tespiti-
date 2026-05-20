@@ -1,0 +1,7 @@
+experiment_type,model,model_type,weights,run_name,imgsz,epochs,batch,precision,recall,mAP50,mAP50-95
+first_round,RT-DETR-l,rtdetr,rtdetr-l.pt,rtdetr_l_640_30ep,640,30,4,0.684156,0.133065,0.022853,0.005516
+first_round,YOLO11s,yolo,yolo11s.pt,yolo11s_768_30ep,768,30,8,0.017453,0.448302,0.021067,0.006
+fine_tune,RT-DETR-l,rtdetr,rtdetr_l_640_30ep_best.pt,rtdetr_l_768_100ep_finetune_batch4,768,100,4,0.680612,0.086022,0.01595,0.004531
+first_round,YOLOv8s,yolo,yolov8s.pt,yolov8s_768_30ep,768,30,8,0.014987,0.435874,0.015872,0.004526
+first_round,YOLOv8n,yolo,yolov8n.pt,yolov8n_640_30ep,640,30,8,0.005913,0.404039,0.014097,0.004037
+first_round,YOLOv8m,yolo,yolov8m.pt,yolov8m_768_30ep,768,30,4,0.006297,0.389171,0.013507,0.00394

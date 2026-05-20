@@ -1,0 +1,5 @@
+dataset,image_type,task,final_model,imgsz,epochs,main_metric_name,main_metric_value,secondary_metric_name,secondary_metric_value
+DENTEX 2023,Panoramic dental X-ray,Object detection,RT-DETR-l,640,30,mAP50,0.0229,mAP50-95,0.0055
+AlphaDent,Intraoral dental image,Instance segmentation,YOLOv8m-seg,640,30,mask_mAP50,0.6121,mask_mAP50-95,0.4115
+Intraoral Caries,Intraoral dental image,Object detection,RT-DETR-l,640,30,mAP50,0.9503,mAP50-95,0.7583
+AlphaDent,Intraoral dental image,Semantic segmentation,DeepLabV3+ ResNet34,512,30,val_mIoU,0.3729,best_epoch,16.0

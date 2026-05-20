@@ -1,0 +1,14 @@
+
+AlphaDent veri seti üzerinde YOLOv8n-seg, YOLOv8s-seg, YOLOv8m-seg ve YOLO11s-seg modelleri
+30 epoch boyunca eğitilerek karşılaştırılmıştır. İlk tur deneylerinde en iyi sonuç YOLOv8m-seg modeliyle
+elde edilmiştir. YOLOv8m-seg 640 görüntü boyutu ve 30 epoch ayarında mask_mAP50=0.6121 ve
+mask_mAP50-95=0.4115 değerlerine ulaşmıştır.
+
+Daha sonra ilk turda en iyi çıkan YOLOv8m-seg modeli, daha yüksek görüntü boyutu ve daha uzun eğitim süresiyle
+yeniden eğitilmiştir. Genel karşılaştırmada en iyi sonuç YOLOv8m-seg modelinin yolov8m_seg_640_30ep deneyinde
+elde edilmiştir. Bu deneyde mask_mAP50=0.6121 ve mask_mAP50-95=0.4115
+olarak hesaplanmıştır.
+
+AlphaDent veri setinde modeller, ağız içi görüntüler üzerinde diş çürüğü ve diş aşınması bölgelerini segmentasyon
+tabanlı olarak ayırmayı hedeflemiştir. Bu veri seti, polygon anotasyonları içerdiği için projenin mikro/yüzey hasarı
+tespiti hedefi açısından en uygun veri setlerinden biridir.

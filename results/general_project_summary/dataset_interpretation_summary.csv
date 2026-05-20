@@ -1,0 +1,5 @@
+dataset,interpretation
+DENTEX 2023,"Panoramik X-ray görüntülerinde çürük, derin çürük ve periapikal lezyon tespiti zor kalmıştır. Düşük mAP değerleri, görüntü türü, sınıf dengesizliği ve bbox anotasyon yapısıyla ilişkilidir."
+AlphaDent,Polygon anotasyonları sayesinde çürük ve diş aşınması bölgeleri segmentasyon tabanlı modellenmiştir. En iyi YOLO-seg sonucu YOLOv8m-seg ile elde edilmiştir.
+Intraoral Caries,Tek sınıflı ağız içi çürük tespiti en başarılı deney grubu olmuştur. RT-DETR-l modeli yüksek mAP50 ve mAP50-95 değerleri vermiştir.
+AlphaDent DeepLabV3+,DeepLabV3+ semantic segmentation için ek literatür modeli olarak denenmiştir. Val mIoU değeri YOLO-seg sonuçlarının gerisinde kalmış ve overfitting eğilimi gözlenmiştir.

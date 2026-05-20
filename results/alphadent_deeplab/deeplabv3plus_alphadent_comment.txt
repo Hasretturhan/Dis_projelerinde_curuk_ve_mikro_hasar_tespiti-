@@ -1,0 +1,9 @@
+
+DeepLabV3+ modeli AlphaDent veri seti üzerinde semantic segmentation yaklaşımıyla denenmiştir.
+YOLO-seg modellerinden farklı olarak DeepLabV3+ instance segmentation değil, piksel tabanlı semantic segmentation
+üretmektedir. Bu nedenle YOLO-seg sonuçları mask mAP metrikleriyle, DeepLabV3+ sonucu ise mIoU metriğiyle
+değerlendirilmiştir.
+
+DeepLabV3+ ResNet34 modeli 30 epoch eğitim sonucunda en iyi val_mIoU=0.3729
+değerine ulaşmıştır. Bu sonuç, literatürde yaygın kullanılan semantic segmentation mimarisinin proje kapsamında
+ek bir karşılaştırma modeli olarak değerlendirilebilmesini sağlamıştır.

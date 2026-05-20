@@ -1,0 +1,15 @@
+
+Intraoral Caries veri seti üzerinde YOLOv8n, YOLOv8s, YOLOv8m, YOLO11s ve RT-DETR-l modelleri
+30 epoch boyunca eğitilerek karşılaştırılmıştır. İlk tur deneylerinde en iyi sonuç RT-DETR-l modeli ile
+elde edilmiştir. rtdetr_l_640_30ep deneyinde model, 640 görüntü boyutu,
+30 epoch ve batch=4 ayarlarıyla eğitilmiş; test setinde
+precision=0.8876, recall=0.8898, mAP50=0.9503 ve
+mAP50-95=0.7583 değerlerine ulaşmıştır.
+
+Daha yüksek görüntü boyutu ve daha uzun eğitim süresiyle gerçekleştirilen RT-DETR-l 768/75 epoch fine-tune
+denemesi, ilk turdaki RT-DETR-l 640/30 epoch modelinden daha düşük mAP değerleri vermiştir.
+Bu nedenle Intraoral Caries veri seti için final model olarak RT-DETR-l 640/30 epoch modeli seçilmiştir.
+
+Sonuçlar, ağız içi görüntülerde çürük bölgelerinin nesne tespiti yöntemiyle başarılı şekilde öğrenilebildiğini
+göstermektedir. Bu veri setinde elde edilen yüksek mAP değerleri, DENTEX panoramik X-ray deneylerine kıyasla
+ağız içi görüntülerde çürük bölgelerinin daha belirgin ve doğrudan etiketlenebilir olduğunu göstermektedir.

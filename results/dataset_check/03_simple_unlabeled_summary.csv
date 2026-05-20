@@ -1,0 +1,4 @@
+dataset,total_images,simple_labeled_images,simple_unlabeled_images
+dentex,3654,0,3654
+alphadent,1455,1320,135
+intraoral_caries,6265,2227,4038

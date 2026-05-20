@@ -1,0 +1,4 @@
+dataset,images,txt_labels,json_labels,xml_labels,other_files
+dentex,3654,0,3,0,0
+alphadent,1455,1320,0,0,2
+intraoral_caries,6265,2245,2248,2245,0

@@ -1,0 +1,10 @@
+class_id,class_name,count
+0,abrasion,6347
+1,filling,2373
+2,crown,589
+3,caries_1,797
+4,caries_2,1098
+5,caries_3,505
+6,caries_4,47
+7,caries_5,1059
+8,caries_6,57

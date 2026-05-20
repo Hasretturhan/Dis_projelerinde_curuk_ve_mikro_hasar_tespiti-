@@ -1,0 +1,7 @@
+model,architecture_type,model_size,task,experiment_type,imgsz,epochs,batch,precision,recall,mAP50,mAP50-95,run_name,description
+RT-DETR-l,Transformer-based detection,large,object detection,first_round,640,30,4,0.887644,0.889754,0.950295,0.758348,rtdetr_l_640_30ep,Gerçek zamanlı Transformer tabanlı nesne tespit modeli
+YOLO11s,YOLO detection,small,object detection,first_round,640,30,8,0.8776,0.884565,0.949497,0.754717,yolo11s_640_30ep,Güncel YOLO ailesinden küçük ölçekli detection modeli
+YOLOv8n,YOLO detection,nano,object detection,first_round,640,30,8,0.852988,0.909209,0.945375,0.748569,yolov8n_640_30ep,Hızlı ve hafif YOLOv8 modeli
+YOLOv8s,YOLO detection,small,object detection,first_round,640,30,8,0.849631,0.92607,0.945,0.747183,yolov8s_640_30ep,Hız ve başarı dengesi için kullanılan YOLOv8 modeli
+YOLOv8m,YOLO detection,medium,object detection,first_round,640,30,4,0.836954,0.907912,0.943005,0.747131,yolov8m_640_30ep,Daha yüksek kapasiteye sahip YOLOv8 modeli
+RT-DETR-l,Transformer-based detection,large,object detection,fine_tune,768,75,4,0.880746,0.874189,0.927027,0.736956,rtdetr_l_768_75ep_finetune,Gerçek zamanlı Transformer tabanlı nesne tespit modeli

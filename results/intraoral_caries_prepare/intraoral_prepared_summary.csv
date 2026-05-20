@@ -1,0 +1,4 @@
+split,images,labels
+train,1558,1558
+val,400,400
+test,269,269

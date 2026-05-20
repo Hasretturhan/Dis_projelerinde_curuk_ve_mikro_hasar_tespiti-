@@ -1,0 +1,3 @@
+selected_model,selected_run,selected_reason,precision,recall,mAP50,mAP50-95,final_model_path
+RT-DETR-l,rtdetr_l_640_30ep,highest mAP50 and mAP50-95 in first-round comparison,0.887644,0.889754,0.950295,0.758348,/content/drive/MyDrive/DIS_PROJESI_007/final_models/intraoral_caries/intraoral_best_model_rtdetr_l_640_30ep.pt
+RT-DETR-l,rtdetr_l_768_75ep_finetune,not selected because fine-tuning decreased mAP values,0.880746,0.874189,0.927027,0.736956,/content/drive/MyDrive/DIS_PROJESI_007/runs/intraoral_caries/rtdetr_l_768_75ep_finetune/weights/best.pt
